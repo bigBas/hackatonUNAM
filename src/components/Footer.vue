@@ -10,7 +10,7 @@
         </div>
     </div>
     <div class="footer-d py-2">
-        <p class="my-auto">Hecho con &#x1F496 por “unknownTeam”, para el <b>Hackatown AWS x UNAM </b></p>
+        <p class="my-auto">Hecho con &x1F496 por “unknownTeam”, para el <b>Hackatown AWS x UNAM </b></p>
     </div>
   </footer>
 </template>

@@ -103,7 +103,9 @@ export default {
           }
           console.log(this.labels);
         })
-        .catch((err) => {});
+        .catch((err) => {
+          console.log(err);
+        });
     },
     verInstrumento(idInstrumento) {
       localStorage.setItem("idInstrumento", idInstrumento);

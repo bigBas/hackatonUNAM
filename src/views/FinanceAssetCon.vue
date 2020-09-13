@@ -78,7 +78,9 @@ export default {
             }
           }
         })
-        .catch((err) => {});
+        .catch((err) => {
+          console.log(err);
+        });
     },
   },
   created() {
