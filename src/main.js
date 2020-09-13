@@ -1,6 +1,9 @@
 import Vue from 'vue'
 import App from './App.vue'
 import router from './routes'
+import "chart.js";
+import "hchs-vue-charts";
+Vue.use(window.VueCharts);
 
 import {library} from '@fortawesome/fontawesome-svg-core'
 import {

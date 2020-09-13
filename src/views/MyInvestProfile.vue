@@ -47,6 +47,14 @@ DE RENTA VARIABLE</h3>
           </div>
       </div>
       <h2 class="mt-5 text-center">Podrías diversificar:</h2>
+      <div class="chart">
+        <chartjs-doughnut
+            :bind="true"
+            :datasets="datasets"
+            :labels="labels"
+            :option="option"
+        />
+      </div>
       <button
             class="btn btn-lg btn-primary mt-5"
             @click="$router.push('./test')"
@@ -58,6 +66,25 @@ DE RENTA VARIABLE</h3>
 
 <script>
 export default {
+    data(){
+        return{
+            labels: ["Instrumento1  ", "Instrumento2  ", "Instrumento3"],
+            datasets: [
+                {
+                    data: [20, 30, 50],
+                    backgroundColor: ["#f36e60", "#ffdb3b", "#185190"],
+                    hoverBackgroundColor: ["#fbd2cd", "#fef5c9", "#d1e3f7"]
+                }
+            ],
+            option: {
+                title: {
+                    display: true,
+                    position: "bottom",
+                    text: "Instrumentos de inversión"
+                }
+            }
+        };
+    }
 
 }
 </script>
@@ -83,6 +110,9 @@ export default {
 
 .asset-sec-pres h3 {
     font-size: 14px;
+}
+.chart{
+    padding: 20px;
 }
 
 pre {
