@@ -18,8 +18,12 @@
     "axios": "^0.20.0",
     "bootstrap": "^4.5.2",
     "bootstrap-vue": "^2.16.0",
+<<<<<<< HEAD
     "chart.js": "^2.9.3",
     "hchs-vue-charts": "^1.2.8",
+=======
+    "sweetalert2": "^10.0.2",
+>>>>>>> 5ea6cf1d74915c8dce5ebd30da35df2dc3fc7a9e
     "vue": "^2.5.11",
     "vue-router": "^3.4.3",
     "vue-sweetalert2": "^3.0.8"

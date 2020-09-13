@@ -61,7 +61,7 @@ export default {
     /* rgba(255, 255, 255, 91%) */
 }
 pre {
-    font-family: 'Maitree';
+    font-family: 'Maitree', serif;
     overflow: hidden;
 }
 /* .asset-main-pres h3 {
